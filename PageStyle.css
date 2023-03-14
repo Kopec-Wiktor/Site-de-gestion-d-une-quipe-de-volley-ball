@@ -1,0 +1,266 @@
+html {
+  font-size: 3.4vmin;
+  font-family: Candara;
+  background: linear-gradient(to right, #000000, #004B99);
+}
+
+body {
+  font-size: 3.4vmin;
+  font-family: Candara;
+  background: linear-gradient(to right, #000000, #004B99);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.conteneur-nav {
+  position: sticky;
+  width: 100%;
+  align-items: center;
+
+}
+
+.menu_Header {
+  align-items: center;
+  display: flex;
+  background-color: #ffffff;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+nav {
+  background-color: #333;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav li {
+  float: left;
+}
+
+nav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #111;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+
+}
+
+
+
+.bloc {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  justify-content: center;
+  margin-top: 2%;
+
+}
+
+.bloc1 {
+  display: flex;
+  background: #fff;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  justify-content: center;
+  margin-top: 2%;
+
+}
+
+.bloc2 {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  padding: 2%;
+  width: 1500px;
+  height: 100%;
+}
+
+.bloc3 {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  padding: 5%;
+  width: 50%;
+  height: 50%;
+}
+
+.bloc4 {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 5%;
+  padding: 5%;
+  width: 100%;
+  height: 10%;
+  font-size: 80%;
+}
+
+.bloc5 {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  margin-top: 2%;
+  width: 400px;
+  height: 400px;
+
+}
+
+img.photoJoueur {
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3);
+  border-color: black;
+}
+
+h1 {
+  display: flex;
+  margin-top: 0.7rem;
+  margin-bottom: 1.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid rgb(0, 0, 0);
+  transition: .3s border-color;
+  font-size: 1.3rem;
+}
+
+input[type="date"],
+input[type="time"] {
+  display: block;
+  width: 80%;
+
+  padding: 15px;
+
+  border: 1px solid rgb(0, 0, 0);
+  transition: .3s border-color;
+
+}
+
+input[type="number"] {
+  display: block;
+  width: 30%;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid rgb(0, 0, 0);
+  transition: .3s border-color;
+  font-size: 1.3rem;
+
+}
+
+label {
+  margin: 0 2rem;
+}
+
+span {
+  margin: 0 2rem;
+  color: blue;
+  cursor: pointer;
+}
+
+#button {
+  margin: 2rem;
+  margin-bottom: 1.5rem;
+  padding: 0.5rem;
+  cursor: pointer;
+  border-radius: 1rem;
+  border: none;
+  font-size: 1.1rem;
+  font-weight: bolder;
+  color: #fff;
+  background: linear-gradient(to right, #DB9929, #004B99);
+  font-family: Candara;
+}
+
+.chart {
+  display: flex;
+  align-items: flex-end;
+  height: 50px;
+  width: 100%;
+  border: 1px solid #ccc;
+}
+
+.segment {
+  font-size: 12px;
+  text-align: center;
+  color: white;
+  height: 100%;
+  background-color: #4CAF50;
+}
+
+
+
+/* responsive */
+
+@media (min-width: 1200px) {
+  .bloc {
+    width: 60%;
+    height: 60%;
+  }
+
+  html {
+    font-size: 2.7vmin;
+  }
+}
